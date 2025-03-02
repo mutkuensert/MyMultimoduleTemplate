@@ -6,7 +6,7 @@ buildscript {
         mavenCentral()
     }
     dependencies{
-        classpath(Libs.gradleKotlin)
+        classpath(gradleKotlin)
     }
 }
 
