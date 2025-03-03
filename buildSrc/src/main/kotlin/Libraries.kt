@@ -29,7 +29,6 @@ class Libraries(val project: Project) {
     val koinTest = getLibrary("koin.test")
     val kotlinxCoroutinesAndroid = getLibrary("kotlinx.coroutines.android")
     val kotlinxCoroutinesTest = getLibrary("kotlinx.coroutines.test")
-    val gradleKotlin = getLibrary("gradle.kotlin")
     val timber = getLibrary("timber")
 
     // @formatter:on
