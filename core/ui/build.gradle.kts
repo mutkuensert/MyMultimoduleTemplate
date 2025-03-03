@@ -8,6 +8,5 @@ android {
 }
 
 dependencies {
-    compose()
     implementation(libraries.kotlinSerialization)
 }

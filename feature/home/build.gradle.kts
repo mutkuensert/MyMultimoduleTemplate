@@ -10,7 +10,6 @@ android {
 dependencies {
     implementation(project(":core:data"))
     implementation(project(":core:ui"))
-    compose()
     coroutines()
     unitTest()
     androidTest()

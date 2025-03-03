@@ -36,4 +36,5 @@ dependencies {
     base()
     baseAndroid()
     coroutines()
+    compose()
 }
