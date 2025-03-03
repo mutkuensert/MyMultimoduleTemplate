@@ -5,15 +5,15 @@ plugins {
 }
 
 android {
-    namespace = PluginConfigs.applicationId
-    compileSdk = PluginConfigs.compileSdk
+    namespace = ProjectConfigs.applicationId
+    compileSdk = ProjectConfigs.compileSdk
 
     defaultConfig {
-        applicationId = PluginConfigs.applicationId
-        minSdk = PluginConfigs.minSdk
-        targetSdk = PluginConfigs.targetSdk
-        versionCode = PluginConfigs.versionCode
-        versionName = PluginConfigs.versionName
+        applicationId = ProjectConfigs.applicationId
+        minSdk = ProjectConfigs.minSdk
+        targetSdk = ProjectConfigs.targetSdk
+        versionCode = ProjectConfigs.versionCode
+        versionName = ProjectConfigs.versionName
 
         vectorDrawables {
             useSupportLibrary = true
@@ -31,12 +31,12 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = PluginConfigs.sourceCompatibility
-        targetCompatibility = PluginConfigs.targetCompatibility
+        sourceCompatibility = ProjectConfigs.sourceCompatibility
+        targetCompatibility = ProjectConfigs.targetCompatibility
     }
 
     kotlinOptions {
-        jvmTarget = PluginConfigs.jvmTarget
+        jvmTarget = ProjectConfigs.jvmTarget
     }
 
     buildFeatures {
@@ -47,7 +47,7 @@ android {
         shaders = false
     }
 
-    packagingOptions {
+    packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
