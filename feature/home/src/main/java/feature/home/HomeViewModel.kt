@@ -1,4 +1,4 @@
-package mymultimoduletemplate.home
+package feature.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import mymultimoduletemplate.core.data.MyModelRepository
+import core.data.MyModelRepository
 
 class HomeViewModel(
     private val myModelRepository: MyModelRepository

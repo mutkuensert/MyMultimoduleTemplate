@@ -1,4 +1,4 @@
-package mymultimoduletemplate.home
+package feature.home
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,8 +18,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import mymultimoduletemplate.core.ui.MyApplicationTheme
-import mymultimoduletemplate.home.MyModelUiState.Success
+import core.ui.MyApplicationTheme
+import feature.home.MyModelUiState.Success
 import org.koin.androidx.compose.koinViewModel
 
 @Composable

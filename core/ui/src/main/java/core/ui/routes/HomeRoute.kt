@@ -1,4 +1,4 @@
-package mymultimoduletemplate.core.ui.navigation.routes
+package core.ui.routes
 
 import kotlinx.serialization.Serializable
 

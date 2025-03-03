@@ -7,8 +7,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import mymultimoduletemplate.core.ui.navigation.routes.HomeRoute
-import mymultimoduletemplate.home.HomeScreen
+import core.ui.routes.HomeRoute
+import feature.home.HomeScreen
 
 @Composable
 fun MainNavigation() {

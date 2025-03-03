@@ -1,4 +1,4 @@
-package mymultimoduletemplate.core.ui
+package core.ui
 
 import android.app.Activity
 import android.os.Build

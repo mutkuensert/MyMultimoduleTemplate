@@ -1,4 +1,4 @@
-package mymultimoduletemplate.core.ui
+package core.ui
 
 import androidx.compose.ui.graphics.Color
 

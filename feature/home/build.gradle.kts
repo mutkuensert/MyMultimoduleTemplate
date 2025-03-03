@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "mymultimoduletemplate.home"
+    namespace = "feature.home"
 }
 
 dependencies {

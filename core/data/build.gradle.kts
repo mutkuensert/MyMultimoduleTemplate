@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "mymultimoduletemplate.core.data"
+    namespace = "core.data"
 }
 
 dependencies {

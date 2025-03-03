@@ -1,4 +1,4 @@
-package mymultimoduletemplate.core.data
+package core.data
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
