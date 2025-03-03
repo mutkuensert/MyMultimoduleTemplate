@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import mymultimoduletemplate.core.data.MyModelRepository
 
-class MyModelViewModel(
+class HomeViewModel(
     private val myModelRepository: MyModelRepository
 ) : ViewModel() {
 

@@ -23,10 +23,10 @@ import mymultimoduletemplate.home.MyModelUiState.Success
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
-fun MyModelScreen(modifier: Modifier = Modifier, viewModel: MyModelViewModel = koinViewModel()) {
+fun HomeScreen(modifier: Modifier = Modifier, viewModel: HomeViewModel = koinViewModel()) {
     val items by viewModel.uiState.collectAsStateWithLifecycle()
     if (items is Success) {
-        MyModelScreen(
+        HomeScreen(
             items = (items as Success).data,
             onSave = { name -> viewModel.addMyModel(name) },
             modifier = modifier
@@ -35,7 +35,7 @@ fun MyModelScreen(modifier: Modifier = Modifier, viewModel: MyModelViewModel = k
 }
 
 @Composable
-internal fun MyModelScreen(
+internal fun HomeScreen(
     items: List<String>,
     onSave: (name: String) -> Unit,
     modifier: Modifier = Modifier
@@ -69,7 +69,7 @@ internal fun MyModelScreen(
 @Composable
 private fun DefaultPreview() {
     MyApplicationTheme {
-        MyModelScreen(listOf("Compose", "Room", "Kotlin"), onSave = {})
+        HomeScreen(listOf("Compose", "Room", "Kotlin"), onSave = {})
     }
 }
 
@@ -77,6 +77,6 @@ private fun DefaultPreview() {
 @Composable
 private fun PortraitPreview() {
     MyApplicationTheme {
-        MyModelScreen(listOf("Compose", "Room", "Kotlin"), onSave = {})
+        HomeScreen(listOf("Compose", "Room", "Kotlin"), onSave = {})
     }
 }

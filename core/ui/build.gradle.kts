@@ -1,5 +1,6 @@
 plugins {
     id("base-feature")
+    kotlin("plugin.serialization")
 }
 
 android {
@@ -8,4 +9,5 @@ android {
 
 dependencies {
     compose()
+    implementation(libraries.kotlinSerialization)
 }

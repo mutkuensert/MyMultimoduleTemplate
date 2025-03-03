@@ -13,6 +13,7 @@ coroutines = "1.10.1"
 junit = "4.13.2"
 koin = "4.0.2"
 kotlin = "2.1.0"
+kotlinSerialization = "1.8.0"
 timber = "5.0.1"
 
 [libraries]
@@ -38,6 +39,7 @@ junit = { module = "junit:junit", version.ref = "junit" }
 koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
 koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin" }
 koin-test = { group = "io.insert-koin", name = "koin-test-junit4", version.ref = "koin" }
+kotlin-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinSerialization" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
