@@ -11,7 +11,6 @@ dependencies {
     implementation(project(":core:data"))
     implementation(project(":core:ui"))
     compose()
-    baseAndroid()
     coroutines()
     unitTest()
     androidTest()
