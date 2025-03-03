@@ -1,6 +1,5 @@
 plugins {
     id("base-feature")
-    id("org.jetbrains.kotlin.plugin.compose")
 }
 
 android {
