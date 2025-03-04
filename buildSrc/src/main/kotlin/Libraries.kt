@@ -27,9 +27,9 @@ class Libraries(val project: Project) {
     val koinAndroid = getLibrary("koin.android")
     val koinCompose = getLibrary("koin.compose")
     val koinTest = getLibrary("koin.test")
-    val kotlinSerialization = getLibrary("kotlin.serialization")
     val kotlinxCoroutinesAndroid = getLibrary("kotlinx.coroutines.android")
     val kotlinxCoroutinesTest = getLibrary("kotlinx.coroutines.test")
+    val kotlinxSerialization = getLibrary("kotlinx.serialization")
     val timber = getLibrary("timber")
 
     // @formatter:on
